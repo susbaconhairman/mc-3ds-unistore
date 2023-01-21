@@ -2,34 +2,38 @@
 "storeContent": [
     {
         "info": {
-            "title": "PanGames",
-            "author": "PanguinBoi",
+            "title": "Vanilla Minecraft Textures (v1.10.x)",
+            "author": "DeadskullzJr",
             "version": "v1.9.19",
-            "category": ["map"],
+            "category": ["texture pack"],
             "console": ["3DS"],
-            "description": "PanGames is a collection of games and attractions made to play with friends or alone.",
+            "description": "Port of the official Minecraft texture pack from v.1.10 by Mojang, ported to the 3DS.",
             "license": "unknown",
             "icon_index": 0,
             "sheet_index": 0,
-            "last_updated": "2023-01-10 at 00:00 (UTC)"
+            "last_updated": "2022-02-10 at 06:24 (UTC)"
         },
-        "Download PanGames v1.0": [
+        "Download Vanilla Minecraft Textures (USA)": [
            {
-                "file": "https://archive.org/download/mc-3ds-customization-repo/PanGames-20230120T020901Z-001.zip",
-                "message": "Downloading PanGames v1.0...",
-                "output": "sdmc:/3ds/PanGames-20230120T020901Z-001.zip",
+                "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE%20%28v1.9.19%29%20-%20Vanilla%20%28v1.10.X%29.7z",
+                "message": "Downloading Vanilla Minecraft Textures (v1.10.x)...",
+                "output": "sdmc:/3ds/MC-NN3DSE (v1.9.19) - Vanilla (v1.10.X).7z",
                 "type": "downloadFile"
             },
             {
                 "type": "extractFile",
-                "file": "PanGames-20230120T020901Z-001.zip",
-                "input": "",
-                "output": "/i-forgot-the-worlds-directory-T_T/",
-                "message": "Extracting PanGames... please wait."
+                "file": "/3ds/MC-NN3DSE (v1.9.19) - Vanilla (v1.10.X).7z",
+                "input": "/00040000001B8700/romfs/atlas/resourcepacks/vanilla/client/textures/",
+                "output": "/luma/titles/00040000001B8700/romfs/atlas/resourcepacks/vanilla/client/",
+                "message": "Extracting textures... please wait."
+            },
+            {
+                "type": "deleteFile",
+                "file": "sdmc:/3ds/MC-NN3DSE (v1.9.19) - Vanilla (v1.10.X).7z",
+                "message": "Deleting unneeded files.."
             }
         ]
-    },
-    place stuff here
+    }
 ]
   "storeInfo": {
     "author": "susbaconhairman",
