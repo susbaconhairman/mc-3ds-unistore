@@ -12,9 +12,9 @@
             "icon_index": 0,
             "sheet_index": 0,
             "last_updated": "2022-02-10 at 06:24 (UTC)"
-        },
+                },
         "Download Vanilla Minecraft Textures (USA)": [
-           {
+            {
                 "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                 "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                 "type": "downloadFile"
