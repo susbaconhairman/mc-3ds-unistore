@@ -1,55 +1,59 @@
 {
-"storeContent": [
-    {
-        "info": {
-            "title": "Vanilla Minecraft Textures (v1.10.x)",
-            "author": "DeadskullzJr",
-            "version": "v1.9.19",
-            "category": ["texture pack"],
-            "console": ["3DS"],
-            "description": "Port of the official Minecraft texture pack from v.1.10 by Mojang, ported to the 3DS.",
-            "license": "unknown",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2022-02-10 at 06:24 (UTC)"
-                },
-        "Download Vanilla Minecraft Textures (USA)": [
+   "storeContent":[
+      {
+         "info":{
+            "title":"Vanilla Minecraft Textures (v1.10.x)",
+            "author":"DeadskullzJr",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of the official Minecraft texture pack from v.1.10 by Mojang, ported to the 3DS.",
+            "license":"unknown",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2022-02-10 at 06:24 (UTC)"
+         },
+         "Download Vanilla Minecraft Textures (USA)":[
             {
-                "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "type": "downloadFile"
+               "file":"https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "output":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "type":"downloadFile"
             },
             {
-                "type": "extractFile",
-                "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
-                "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+               "type":"extractFile",
+               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
             },
             {
-                "type": "extractFile",
-                "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "input": "00040000001B8700/romfs/atlas/",
-                "output": "sdmc:/luma/titles/00040000001B8700/atlas/",
+               "type":"extractFile",
+               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "input":"00040000001B8700/romfs/atlas/",
+               "output":"sdmc:/luma/titles/00040000001B8700/atlas/"
             },
             {
-                "type": "deleteFile",
-                "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z"
             }
-        ]
-    }
-],
-  "storeInfo": {
-    "author": "susbaconhairman",
-    "description": "Minecraft 3DS Customization Database",
-    "dsSheet": "universal-db.tdx",
-    "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
-    "file": "mc-3ds.unistore",
-    "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-    "revision": 7,
-    "sheet": "universal-db.t3x",
-    "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-    "title": "Minecraft 3DS Customization",
-    "url": "https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/mc-3ds.unistore",
-    "version": 3
-  }
+         ]
+      }
+   ],
+   "storeInfo":{
+      "author":"susbaconhairman",
+      "description":"Minecraft 3DS Customization Database",
+      "dsSheet":"universal-db.tdx",
+      "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
+      "file":"mc-3ds.unistore",
+      "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
+      "revision":7,
+      "sheet":"universal-db.t3x",
+      "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
+      "title":"Minecraft 3DS Customization",
+      "url":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/mc-3ds.unistore",
+      "version":3
+   }
 }
