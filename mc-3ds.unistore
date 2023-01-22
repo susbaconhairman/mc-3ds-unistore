@@ -23,8 +23,15 @@
             {
                 "type": "extractFile",
                 "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "input": "/00040000001B8700/romfs/",
-                "output": "sdmc:/luma/titles/00040000001B8700/romfs/",
+                "input": "/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+                "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+                "message": "Extracting textures... please wait."
+            },
+            {
+                "type": "extractFile",
+                "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
+                "input": "/00040000001B8700/atlas/",
+                "output": "sdmc:/luma/titles/00040000001B8700/atlas/",
                 "message": "Extracting textures... please wait."
             },
             {
@@ -47,6 +54,6 @@
     "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
     "title": "Minecraft 3DS Customization",
     "url": "https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/mc-3ds.unistore",
-    "version": 3
+    "version": 4
   }
 }
