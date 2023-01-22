@@ -16,7 +16,6 @@
         "Download Vanilla Minecraft Textures (USA)": [
            {
                 "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "message": "Downloading Vanilla Minecraft Textures (v1.10.x)...",
                 "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                 "type": "downloadFile"
             },
@@ -25,19 +24,16 @@
                 "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                 "input": "/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
                 "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
-                "message": "Extracting textures... please wait."
             },
             {
                 "type": "extractFile",
                 "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                 "input": "/00040000001B8700/atlas/",
                 "output": "sdmc:/luma/titles/00040000001B8700/atlas/",
-                "message": "Extracting textures... please wait."
             },
             {
                 "type": "deleteFile",
                 "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
-                "message": "Deleting unneeded files.."
             }
         ]
     }
