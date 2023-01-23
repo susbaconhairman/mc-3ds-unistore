@@ -17,7 +17,7 @@
             "sheet_index": 0,
             "last_updated": "2022-02-10 at 06:24 (UTC)"
          },
-         "Download Vanilla Minecraft Textures (USA)": [
+         "Vanilla Minecraft Textures (USA)": [
             {
                "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
@@ -45,7 +45,7 @@
                "count": 1
             }
          ],
-         "Download Vanilla Minecraft Textures (EUR)": [
+         "Vanilla Minecraft Textures (EUR)": [
             {
                "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
@@ -73,7 +73,7 @@
                "count": 1
             }
          ],
-          "Download Vanilla Minecraft Textures (JPN)": [
+          "Vanilla Minecraft Textures (JPN)": [
             {
                "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
                "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z",
@@ -100,6 +100,90 @@
                "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
+         ],
+         "Vanilla Minecraft Textures Better Grass (USA)": [
+            {
+               "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "type": "downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/textures/",
+               "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "00040000001B8700/romfs/atlas/",
+               "output": "sdmc:/luma/titles/00040000001B8700/atlas/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+            },
+            {
+               "type": "promptMessage",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
+               "count": 1
+            }
+         ],
+         "Download Vanilla Minecraft Textures (EUR)": [
+            {
+               "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "type": "downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/textures/",
+               "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "000400000017CA00/romfs/atlas/",
+               "output": "sdmc:/luma/titles/000400000017CA00/atlas/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+            },
+            {
+               "type": "promptMessage",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
+               "count": 1
+            }
+         ],
+          "Download Vanilla Minecraft Textures (JPN)": [
+            {
+               "file": "https://archive.org/download/mc-3ds-customization-repo/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "output": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "type": "downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/textures/",
+               "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z",
+               "input": "000400000017FD00/romfs/atlas/",
+               "output": "sdmc:/luma/titles/000400000017FD00/atlas/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X-Better-Grass.7z"
+            },
+            {
+               "type": "promptMessage",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
+               "count": 1
+            }
          ]
       }
    ],
@@ -110,7 +194,7 @@
       "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
       "file": "mc-3ds.unistore",
       "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision": 12,
+      "revision": 13,
       "sheet": "universal-db.t3x",
       "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
       "title": "Minecraft 3DS Customization",
