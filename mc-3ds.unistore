@@ -38,6 +38,11 @@
             {
                "type": "deleteFile",
                "file": "sdmc:/3ds/MC-NN3DSE-v1.9.19-Vanilla-v1.10.X.7z"
+            },
+            {
+               "type": "promptMessage",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
+               "count": 1
             }
          ]
       }
@@ -49,7 +54,7 @@
       "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
       "file": "mc-3ds.unistore",
       "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision": 9,
+      "revision": 10,
       "sheet": "universal-db.t3x",
       "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
       "title": "Minecraft 3DS Customization",
