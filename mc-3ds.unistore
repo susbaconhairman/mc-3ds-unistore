@@ -1,4 +1,18 @@
 {
+   "storeInfo": {
+      "author": "susbaconhairman",
+      "description": "Minecraft 3DS Customization Database",
+      "dsSheet": "universal-db.tdx",
+      "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
+      "file": "mc-3ds.unistore",
+      "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
+      "revision": 15,
+      "sheet": "universal-db.t3x",
+      "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
+      "title": "Minecraft 3DS Customization",
+      "url": "https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/mc-3ds.unistore",
+      "version": 3
+   },
    "storeContent": [
       {
          "info": {
@@ -186,19 +200,5 @@
             }
          ]
       }
-   ],
-   "storeInfo": {
-      "author": "susbaconhairman",
-      "description": "Minecraft 3DS Customization Database",
-      "dsSheet": "universal-db.tdx",
-      "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
-      "file": "mc-3ds.unistore",
-      "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision": 14,
-      "sheet": "universal-db.t3x",
-      "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
-      "title": "Minecraft 3DS Customization",
-      "url": "https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/mc-3ds.unistore",
-      "version": 3
-   }
+   ]
 }
