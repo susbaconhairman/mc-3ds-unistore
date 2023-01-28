@@ -41,7 +41,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ],
@@ -69,7 +69,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Cnfiguration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ],
@@ -97,7 +97,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ],
@@ -125,7 +125,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ],
@@ -153,7 +153,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ],
@@ -181,108 +181,7 @@
             },
             {
                "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
-               "count": 1
-            }
-         ]
-      },
-      "info": {
-            "title": "Bare Bones Textures (v1.1.1)",
-            "author": "DeadskullzJr",
-            "version": "v1.9.19",
-            "category": [
-               "texture pack"
-            ],
-            "console": [
-               "3DS"
-            ],
-            "description": "Port of the Bare Bones texture pack (v1.1.1) by RobotPantaloons, ported to the 3DS.",
-            "license": "unknown",
-            "icon_index": 0,
-            "sheet_index": 0,
-            "last_updated": "2021-10-05 at 00:06 (UTC)"
-         },
-         "Bare Bones Textures (USA)": [
-            {
-               "file": "https://archive.org/download/mc-3ds-customization-repo/Bare-Bones.7z",
-               "output": "sdmc:/3ds/Bare-Bones.7z",
-               "type": "downloadFile"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "00040000001B8700/romfs/resourcepacks/vanilla/client/",
-               "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "00040000001B8700/romfs/atlas/",
-               "output": "sdmc:/luma/titles/00040000001B8700/atlas/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z"
-            },
-            {
-               "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
-               "count": 1
-            }
-         ],
-         "Bare Bones Textures (EUR)": [
-            {
-               "file": "https://archive.org/download/mc-3ds-customization-repo/Bare-Bones.7z",
-               "output": "sdmc:/3ds/Bare-Bones.7z",
-               "type": "downloadFile"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "000400000017CA00/romfs/resourcepacks/vanilla/client/",
-               "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "000400000017CA00/romfs/atlas/",
-               "output": "sdmc:/luma/titles/000400000017CA00/atlas/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z"
-            },
-            {
-               "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
-               "count": 1
-            }
-         ],
-          "Bare Bones Textures (JPN)": [
-            {
-               "file": "https://archive.org/download/mc-3ds-customization-repo/Bare-Bones.7z",
-               "output": "sdmc:/3ds/Bare-Bones.7z",
-               "type": "downloadFile"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "000400000017FD00/romfs/resourcepacks/vanilla/client/",
-               "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
-            },
-            {
-               "type": "extractFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z",
-               "input": "000400000017FD00/romfs/atlas/",
-               "output": "sdmc:/luma/titles/000400000017FD00/atlas/"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/3ds/Bare-Bones.7z"
-            },
-            {
-               "type": "promptMessage",
-               "message": "Make sure you enable Game Patching in the Luma Configuration Menu for this to work!",
+               "message": "Make sure you enable Game Patching in the Luma COnfiguration Menu for this to work!",
                "count": 1
             }
          ]
@@ -295,7 +194,7 @@
       "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
       "file": "mc-3ds.unistore",
       "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision": 15,
+      "revision": 14,
       "sheet": "universal-db.t3x",
       "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
       "title": "Minecraft 3DS Customization",
