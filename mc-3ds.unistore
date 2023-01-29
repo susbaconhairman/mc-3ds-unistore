@@ -16,7 +16,7 @@
    "storeContent": [
       {
          "info": {
-            "title": "Vanilla Minecraft Textures (v1.10.x)",
+            "title": "Vanilla Minecraft Textures (v1.10)",
             "author": "DeadskullzJr",
             "version": "v1.9.19",
             "category": [
@@ -25,7 +25,7 @@
             "console": [
                "3DS"
             ],
-            "description": "Port of the official Minecraft texture pack from v.1.10 by Mojang, ported to the 3DS.",
+            "description": "Port of the official Minecraft texture pack (v.1.10) by Mojang.",
             "license": "unknown",
             "icon_index": 0,
             "sheet_index": 0,
