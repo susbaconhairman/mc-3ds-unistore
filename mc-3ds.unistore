@@ -6,7 +6,7 @@
       "dsSheetURL": "https://db.universal-team.net/unistore/universal-db.tdx",
       "file": "mc-3ds.unistore",
       "infoURL": "https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision": 20,
+      "revision": 21,
       "sheet": "universal-db.t3x",
       "sheetURL": "https://db.universal-team.net/unistore/universal-db.t3x",
       "title": "Minecraft 3DS Customization",
@@ -39,12 +39,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/",
                "required": false
             },
             {
@@ -77,12 +77,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/",
                "required": false
             },
             {
@@ -115,12 +115,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/",
                "required": false
             },
             {
@@ -153,12 +153,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/",
                "required": false
             },
             {
@@ -191,12 +191,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/",
                "required": false
             },
             {
@@ -229,12 +229,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/",
                "required": false
             },
             {
@@ -285,12 +285,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "directory": "sdmc:/luma/titles/00040000001B8700/atlas/",
                "required": false
             },
             {
@@ -323,12 +323,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017CA00/atlas/",
                "required": false
             },
             {
@@ -361,12 +361,12 @@
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/",
                "required": false
             },
             {
                "type": "rmdir",
-               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/"
+               "directory": "sdmc:/luma/titles/000400000017FD00/atlas/",
                "required": false
             },
             {
