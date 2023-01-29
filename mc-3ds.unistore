@@ -75,11 +75,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017CA00/atlas/"
             },
             {
                "type": "extractFile",
@@ -111,11 +111,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017FD00/atlas/"
             },
             {
                "type": "extractFile",
@@ -183,11 +183,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017CA00/atlas/"
             },
             {
                "type": "extractFile",
@@ -219,11 +219,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017FD00/atlas/"
             },
             {
                "type": "extractFile",
@@ -309,11 +309,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017CA00/atlas/"
             },
             {
                "type": "extractFile",
@@ -345,11 +345,11 @@
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/"
+               "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/"
             },
             {
                "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/atlas/"
+               "file": "sdmc:/luma/titles/000400000017FD00/atlas/"
             },
             {
                "type": "extractFile",
