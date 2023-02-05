@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":31,
+      "revision":32,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -392,7 +392,7 @@
             }
          ]
       },
-            {
+      {
          "info":{
             "title":"Vanilla Minecraft Textures (v1.17)",
             "author":"DeadskullzJr",
@@ -635,6 +635,39 @@
                "type":"promptMessage",
                "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"DLC Activator for Minecraft: New Nintendo 3DS Edition",
+            "author":"Unknown",
+            "version":"v1.9.19",
+            "category":[
+               "modification"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"DLC activator CIA for Minecraft: New Nintendo 3DS Edition",
+            "license":"GPLv3",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2021-27-05 at 12:45 (UTC)"
+         },
+         "DLC Activator":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/dlc_activator.cia",
+               "output":"sdmc:/3ds/dlc-activator.cia",
+               "type":"downloadFile"
+            },
+            {
+               "type": "installCia",
+               "file": "sdmc:/3ds/dlc-activator.cia"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/dlc-activator.cia"
             }
          ]
       }
