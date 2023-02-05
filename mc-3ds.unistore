@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":32,
+      "revision":33,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -655,7 +655,7 @@
             "sheet_index":0,
             "last_updated":"2021-27-05 at 12:45 (UTC)"
          },
-         "DLC Activator":[
+         "Minecraft 3DS DLC Activator (CIA)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/dlc_activator.cia",
                "output":"sdmc:/3ds/dlc-activator.cia",
