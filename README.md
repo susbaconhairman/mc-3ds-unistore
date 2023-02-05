@@ -5,13 +5,13 @@ If you want to have something added to the UniStore, contact me on Discord, my u
 
 File repo: https://archive.org/details/mc-3ds-customization-repo
 
-# QR Code
+## QR Code
 ![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/blob/main/qr_code_300x300.png?raw=true)
 
 ## Credits
 Testing: Mr.Dingus#7918, myself (skribbler#1095)
 Support: Minecraft 3DS Community and Universal-Server Discord servers
-Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture conversion, Piskel for sprite editor, and PineTools for image flipper.
+Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture                conversion, Piskel for sprite editor, and PineTools for image flipper.
 
 ### Customization Creators -
 Kharrii2 Dirt/Grass Block Face Textures: MegaMinerDL, Ported by susbaconhairman
