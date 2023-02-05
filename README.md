@@ -5,7 +5,16 @@ If you want to have something added to the UniStore, contact me on Discord, my u
 
 File repo: https://archive.org/details/mc-3ds-customization-repo
 
-Thanks to Mr.Dingus#7918 for testing (even though it failed), https://jsonformatter.curiousconcept.com/, and the Minecraft 3DS Community and Universal-Server Discord servers for support.
+# QR Code
+![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/blob/main/qr_code_300x300.png?raw=true)
 
-Oh, here's a QR code for installation (sorry, the image is kinda big):
-![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/blob/main/qr-code.png?raw=true)
+## Credits
+Testing: Mr.Dingus#7918, myself (skribbler#1095)
+Support: Minecraft 3DS Community and Universal-Server Discord servers
+Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture conversion, Piskel for sprite editor, and PineTools for image flipper.
+
+### Customization Creators -
+Kharrii2 Dirt/Grass Block Face Textures: MegaMinerDL, Ported by susbaconhairman
+Vanilla Minecraft Textures (v1.10): Mojang, Ported by DeadSkullzJr
+Vanilla Minecraft Textures (v1.17): Mojang, Ported by DeadSkullzJr
+Bare Bones Textures: RobotPantaloons, Ported by DeadSkullzJr
