@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":33,
+      "revision":34,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -668,6 +668,138 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/3ds/dlc-activator.cia"
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Kharrii2 Dirt/Grass Block Face Textures",
+            "author":"DeadskullzJr",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of the Kharrii2 Dirt/Grass Face pack by MegaMinerDL (v1.19.3)",
+            "license":"none",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2023-30-01 at 21:12 (CST)"
+         },
+         "Kharrii2 Face Textures (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/kharrii2_textures.zip",
+               "output":"sdmc:/3ds/kharrii2_textures.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"00040000001B8700/romfs/atlas/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Kharrii2 Face Textures (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/kharrii2_textures.zip",
+               "output":"sdmc:/3ds/kharrii2_textures.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"000400000017CA00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Kharrii2 Face Textures (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/kharrii2_textures.zip",
+               "output":"sdmc:/3ds/kharrii2_textures.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip",
+               "input":"000400000017FD00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/kharrii2_textures.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
             }
          ]
       }
