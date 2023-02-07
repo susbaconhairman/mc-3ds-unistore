@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":35,
+      "revision":36,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -827,10 +827,6 @@
                "type":"downloadFile"
             },
             {
-               "type": "deleteFile",
-               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/creeper.json"
-            },
-            {
                "type":"extractFile",
                "file":"sdmc:/3ds/better_creepers.zip",
                "input":"creeper.json",
@@ -858,10 +854,6 @@
                "type":"downloadFile"
             },
             {
-               "type": "deleteFile",
-               "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
-            },
-            {
                "type":"extractFile",
                "file":"sdmc:/3ds/better_creepers.zip",
                "input":"creeper.json",
@@ -887,10 +879,6 @@
                "file":"https://archive.org/download/mc-3ds-customization-repo/better_creepers.zip",
                "output":"sdmc:/3ds/better_creepers.zip",
                "type":"downloadFile"
-            },
-            {
-               "type": "deleteFile",
-               "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
             },
             {
                "type":"extractFile",
