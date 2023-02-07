@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":34,
+      "revision":35,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -799,6 +799,117 @@
             {
                "type":"promptMessage",
                "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Better Creepers Mod",
+            "author":"RetroRemade",
+            "version":"v1.9.19",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This mod makes creepers friendly and tameable, and it also adds baby creepers!",
+            "license":"unknown",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2023-10-01 at 00:00 (UTC)"
+         },
+         "Better Creepers (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/better_creepers.zip",
+               "output":"sdmc:/3ds/better_creepers.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/better_creepers.zip",
+               "input":"creeper.json",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/better_creepers.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Better Creepers (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/better_creepers.zip",
+               "output":"sdmc:/3ds/better_creepers.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/better_creepers.zip",
+               "input":"creeper.json",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/better_creepers.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Better Creepers (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/better_creepers.zip",
+               "output":"sdmc:/3ds/better_creepers.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/better_creepers.zip",
+               "input":"creeper.json",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/creeper.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/better_creepers.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
                "count":1
             }
          ]
