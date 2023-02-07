@@ -13,9 +13,7 @@ Testing: Mr.Dingus#7918, myself (skribbler#1095)
 
 Support: Minecraft 3DS Community and Universal-Server Discord servers
 
-Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture
-
-conversion, Piskel for sprite editor, and PineTools for image flipper.
+Editing: https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub editor, Ohana3DS for texture conversion, Piskel for sprite editor, and PineTools for image flipper.
 
 ### Customization Creators
 Kharrii2 Dirt/Grass Block Face Textures: MegaMinerDL, Ported by susbaconhairman
@@ -25,3 +23,5 @@ Vanilla Minecraft Textures (v1.10): Mojang, Ported by DeadSkullzJr
 Vanilla Minecraft Textures (v1.17): Mojang, Ported by DeadSkullzJr
 
 Bare Bones Textures: RobotPantaloons, Ported by DeadSkullzJr
+
+DLC Activator for Minecraft: New Nintendo 3DS Edition CIA: unknown author
