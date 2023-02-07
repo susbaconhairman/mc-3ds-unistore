@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":36,
+      "revision":37,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -898,6 +898,90 @@
             {
                "type":"promptMessage",
                "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"LEGO Minecraft Dragon Slayer Skin",
+            "author":"susbaconhairman",
+            "version":"v1.9.19",
+            "category":[
+               "skin"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of the official downloadable skin by Mojang from the LEGO Minecraft: The End Battle set.",
+            "license":"none",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2023-23-01 at 22:04 (CST)"
+         },
+         "Dragon Slayer Skin (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
+               "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "input":"luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Dragon Slayer Skin (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
+               "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "input":"luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Dragon Slayer Skin (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
+               "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
+               "input":"luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                "count":1
             }
          ]
