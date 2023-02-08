@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":39,
+      "revision":40,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1003,7 +1003,7 @@
             "sheet_index":0,
             "last_updated":"2023-07-02 at 00:48 (UTC)"
          },
-         "Better Creepers (USA)":[
+         "Sheeptastic (USA)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/sheeptastic.zip",
                "output":"sdmc:/3ds/sheeptastic.zip",
@@ -1036,7 +1036,7 @@
                "count":1
             }
          ],
-         "Better Creepers (EUR)":[
+         "Sheeptastic (EUR)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/sheeptastic.zip",
                "output":"sdmc:/3ds/sheeptastic.zip",
@@ -1069,7 +1069,7 @@
                "count":1
             }
          ],
-         "Better Creepers (JPN)":[
+         "Sheeptastic (JPN)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/sheeptastic.zip",
                "output":"sdmc:/3ds/sheeptastic.zip",
