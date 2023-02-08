@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":42,
+      "revision":43,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -919,16 +919,21 @@
             "sheet_index":0,
             "last_updated":"2023-23-01 at 22:04 (CST)"
          },
-         "Dragon Slayer Skin (USA)":[
+         "LEGO Dragon Slayer Skin (USA)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
             {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
+               "required":false
+            },
+            {
                "type":"extractFile",
                "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
-               "input":"luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
+               "input":"luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
@@ -941,16 +946,21 @@
                "count":1
             }
          ],
-         "Dragon Slayer Skin (EUR)":[
+         "LEGO Dragon Slayer Skin (EUR)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
             {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "required":false
+            },
+            {
                "type":"extractFile",
                "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
-               "input":"luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "input":"luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
@@ -963,16 +973,21 @@
                "count":1
             }
          ],
-         "Dragon Slayer Skin (JPN)":[
+         "LEGO Dragon Slayer Skin (JPN)":[
             {
                "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
             {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "required":false
+            },
+            {
                "type":"extractFile",
                "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
-               "input":"luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "input":"luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
@@ -1011,19 +1026,24 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities",
                "required":false
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"entities/",
+               "input":"entities/sheep.json",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/sheep.json"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"loot_table/entities/",
+               "input":"loot_tables/entities/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
             },
             {
@@ -1049,19 +1069,24 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
                "required":false
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"entities/",
+               "input":"entities/sheep.json",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"loot_table/entities/",
+               "input":"loot_tables/entities/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
             },
             {
@@ -1087,19 +1112,24 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
                "required":false
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"entities/",
+               "input":"entities/sheep.json",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/sheeptastic.zip",
-               "input":"loot_table/entities/",
+               "input":"loot_tables/entities/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
             },
             {
