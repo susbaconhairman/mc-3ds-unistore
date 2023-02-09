@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":43,
+      "revision":44,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://db.universal-team.net/unistore/universal-db.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1016,7 +1016,7 @@
             "license":"unknown",
             "icon_index":0,
             "sheet_index":0,
-            "last_updated":"2023-07-02 at 00:48 (UTC)"
+            "last_updated":"2023-02-07 at 18:02 (UTC)"
          },
          "Sheeptastic (USA)":[
             {
