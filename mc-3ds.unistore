@@ -6,8 +6,8 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":48,
-      "sheet":"universal-db.t3x",
+      "revision":49,
+      "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
       "url":"https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/mc-3ds.unistore",
@@ -28,7 +28,7 @@
             "description":"Port of the official Minecraft texture pack (v.1.10) by Mojang.",
             "license":"unknown",
             "icon_index":18,
-            "sheet_index":1,
+            "sheet_index":0,
             "last_updated":"2022-02-10 at 06:24 (UTC)"
          },
          "Vanilla Minecraft Textures (USA)":[
@@ -273,7 +273,7 @@
             ],
             "description":"Port of the Bare Bones texture pack (v1.1.1) by RobotPantaloons.",
             "license":"unknown",
-            "icon_index":0,
+            "icon_index":2,
             "sheet_index":0,
             "last_updated":"2021-10-05 at 00:06 (UTC)"
          },
@@ -405,7 +405,7 @@
             ],
             "description":"Port of the official Minecraft texture pack (v.1.17) by Mojang.",
             "license":"unknown",
-            "icon_index":0,
+            "icon_index":19,
             "sheet_index":0,
             "last_updated":"2021-05-10 at 00:08 (UTC)"
          },
@@ -651,7 +651,7 @@
             ],
             "description":"DLC activator CIA for Minecraft: New Nintendo 3DS Edition",
             "license":"GPLv3",
-            "icon_index":0,
+            "icon_index":11,
             "sheet_index":0,
             "last_updated":"2021-27-05 at 12:45 (UTC)"
          },
@@ -684,7 +684,7 @@
             ],
             "description":"Port of the Kharrii2 Dirt/Grass Face pack by MegaMinerDL (v1.19.3)",
             "license":"none",
-            "icon_index":0,
+            "icon_index":8,
             "sheet_index":0,
             "last_updated":"2023-30-01 at 21:12 (CST)"
          },
@@ -816,7 +816,7 @@
             ],
             "description":"This mod makes creepers friendly and tameable, and it also adds baby creepers!",
             "license":"unknown",
-            "icon_index":0,
+            "icon_index":3,
             "sheet_index":0,
             "last_updated":"2023-10-01 at 00:00 (UTC)"
          },
@@ -915,7 +915,7 @@
             ],
             "description":"Port of the official downloadable skin by Mojang from the LEGO Minecraft: The End Battle set.",
             "license":"none",
-            "icon_index":0,
+            "icon_index":5,
             "sheet_index":0,
             "last_updated":"2023-23-01 at 22:04 (CST)"
          },
@@ -1014,7 +1014,7 @@
             ],
             "description":"Created by Falkenvergh, Sheeptastic is a fantastic mod which makes sheep much more useful.",
             "license":"unknown",
-            "icon_index":0,
+            "icon_index":16,
             "sheet_index":0,
             "last_updated":"2023-02-07 at 18:02 (UTC)"
          },
@@ -1161,7 +1161,7 @@
             ],
             "description":"This shader increases the world brightness and adds the side block shadow.",
             "license":"unknown",
-            "icon_index":0,
+            "icon_index":7,
             "sheet_index":0,
             "last_updated":"2023-11-27 at 00:00 (UTC)"
          },
