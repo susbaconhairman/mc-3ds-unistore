@@ -1147,6 +1147,90 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"ENDERMANYK's Shaders",
+            "author":"ENDERMANYK",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This shader increases the world brightness and adds the side block shadow.",
+            "license":"unknown",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2023-11-27 at 00:00 (UTC)"
+         },
+         "ENDERMANYK's Shaders (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/endermanyk-shader.zip",
+               "output":"sdmc:/3ds/endermanyk-shader.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip",
+               "input":"renderchunk.shbin",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "ENDERMANYK's Shaders (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/endermanyk-shader.zip",
+               "output":"sdmc:/3ds/endermanyk-shader.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip",
+               "input":"renderchunk.shbin",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "ENDERMANYK's Shaders (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/endermanyk-shader.zip",
+               "output":"sdmc:/3ds/endermanyk-shader.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/endermanyk-shader.zip",
+               "input":"renderchunk.shbin",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
