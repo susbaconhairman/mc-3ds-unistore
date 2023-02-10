@@ -6,7 +6,7 @@
       "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
       "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":47,
+      "revision":48,
       "sheet":"universal-db.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -28,7 +28,7 @@
             "description":"Port of the official Minecraft texture pack (v.1.10) by Mojang.",
             "license":"unknown",
             "icon_index":18,
-            "sheet_index":0,
+            "sheet_index":1,
             "last_updated":"2022-02-10 at 06:24 (UTC)"
          },
          "Vanilla Minecraft Textures (USA)":[
