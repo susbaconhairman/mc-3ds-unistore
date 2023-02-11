@@ -2,11 +2,8 @@
    "storeInfo":{
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
-      "dsSheet":"universal-db.tdx",
-      "dsSheetURL":"https://db.universal-team.net/unistore/universal-db.tdx",
       "file":"mc-3ds.unistore",
-      "infoURL":"https://db.universal-team.net/unistore/universal-db-info.json",
-      "revision":49,
+      "revision":50,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
