@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":50,
+      "revision":51,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1228,6 +1228,104 @@
                "count":1
             }
          ]
-      }
+      },
+      {
+         "info":{
+            "title":"Anti Map Crash Mod",
+            "author":"DarkForPresident",
+            "version":"v1.9.19",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.",
+            "license":"unknown",
+            "icon_index":0,
+            "sheet_index":0,
+            "last_updated":"2023-09-01 at 00:00 (UTC)"
+         },
+         "Anti Map Crash (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/anti-map-crash.zip",
+               "output":"sdmc:/3ds/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip",
+               "input":"stronghold_library.json",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Anti Map Crash (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/anti-map-crash.zip",
+               "output":"sdmc:/3ds/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip",
+               "input":"stronghold_library.json",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Anti Map Crash (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/anti-map-crash.zip",
+               "output":"sdmc:/3ds/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip",
+               "input":"stronghold_library.json",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
    ]
 }
