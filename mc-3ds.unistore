@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":51,
+      "revision":52,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1326,6 +1326,7 @@
                "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
                "count":1
             }
-         ],
+         ]
+      }
    ]
 }
