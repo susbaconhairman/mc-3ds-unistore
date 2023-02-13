@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":52,
+      "revision":53,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -14,7 +14,7 @@
       {
          "info":{
             "title":"Vanilla Minecraft Textures (v1.10)",
-            "author":"DeadskullzJr",
+            "author":"DeadSkullzJr",
             "version":"v1.9.19",
             "category":[
                "texture pack"
@@ -260,7 +260,7 @@
       {
          "info":{
             "title":"Bare Bones Textures (v1.1.1)",
-            "author":"DeadskullzJr",
+            "author":"DeadSkullzJr",
             "version":"v1.9.19",
             "category":[
                "texture pack"
@@ -392,7 +392,7 @@
       {
          "info":{
             "title":"Vanilla Minecraft Textures (v1.17)",
-            "author":"DeadskullzJr",
+            "author":"DeadSkullzJr",
             "version":"v1.9.19",
             "category":[
                "texture pack"
@@ -671,7 +671,7 @@
       {
          "info":{
             "title":"Kharrii2 Dirt/Grass Block Face Textures",
-            "author":"DeadskullzJr",
+            "author":"susbaconhairman",
             "version":"v1.9.19",
             "category":[
                "texture pack"
@@ -923,11 +923,6 @@
                "type":"downloadFile"
             },
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
-               "required":false
-            },
-            {
                "type":"extractFile",
                "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "input":"luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
@@ -950,11 +945,6 @@
                "type":"downloadFile"
             },
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
-               "required":false
-            },
-            {
                "type":"extractFile",
                "file":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "input":"luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
@@ -975,11 +965,6 @@
                "file":"https://archive.org/download/mc-3ds-customization-repo/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/3ds/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
-            },
-            {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
-               "required":false
             },
             {
                "type":"extractFile",
