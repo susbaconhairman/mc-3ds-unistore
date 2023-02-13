@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":55,
+      "revision":56,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1455,6 +1455,105 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/3ds/minetroid_r16.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Legacy Console Default Skins",
+            "author":"TheRustico36",
+            "version":"v1.9.19",
+            "category":[
+               "skinpack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This skin pack includes classic skins from the Legacy console versions of Minecraft.",
+            "license":"unknown",
+            "icon_index":9,
+            "sheet_index":0,
+            "last_updated":"2022-09-21 at 00:00 (UTC)"
+         },
+         "Legacy Console Skins (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/legacy_console_default.zip",
+               "output":"sdmc:/3ds/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Legacy Console Skins (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/legacy_console_default.zip",
+               "output":"sdmc:/3ds/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Legacy Console Skins (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/legacy_console_default.zip",
+               "output":"sdmc:/3ds/legacy_console_default.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip",
+               "input":"PVP_Warriors/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/legacy_console_default.zip"
             },
             {
                "type":"promptMessage",
