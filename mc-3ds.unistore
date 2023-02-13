@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":56,
+      "revision":57,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1474,7 +1474,7 @@
             "console":[
                "3DS"
             ],
-            "description":"This skin pack includes classic skins from the Legacy console versions of Minecraft.",
+            "description":"This skin pack includes classic skins from the Legacy console versions of Minecraft. These skins replace most of the ones from the Biome Settlers 1 pack. ",
             "license":"unknown",
             "icon_index":9,
             "sheet_index":0,
