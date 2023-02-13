@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":54,
+      "revision":55,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1313,7 +1313,8 @@
             }
          ]
       },
-      "info":{
+      {
+         "info":{
             "title":"Minetroid Textures (r16)",
             "author":"DeadSkullzJr",
             "version":"v1.9.19",
