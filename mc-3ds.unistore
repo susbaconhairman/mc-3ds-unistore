@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":57,
+      "revision":58,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1332,8 +1332,8 @@
          },
          "Minetroid Textures (USA)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
-               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.zip",
+               "output":"sdmc:/3ds/minetroid_r16.zip",
                "type":"downloadFile"
             },
             {
@@ -1348,25 +1348,25 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"00040000001B8700/romfs/atlas/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z"
+               "file":"sdmc:/3ds/minetroid_r16.zip"
             },
             {
                "type":"promptMessage",
@@ -1376,8 +1376,8 @@
          ],
          "Minetroid Textures (EUR)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
-               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.zip",
+               "output":"sdmc:/3ds/minetroid_r16.zip",
                "type":"downloadFile"
             },
             {
@@ -1392,25 +1392,25 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017CA00/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z"
+               "file":"sdmc:/3ds/minetroid_r16.zip"
             },
             {
                "type":"promptMessage",
@@ -1420,8 +1420,8 @@
          ],
          "Minetroid Textures (JPN)":[
             {
-               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
-               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.zip",
+               "output":"sdmc:/3ds/minetroid_r16.zip",
                "type":"downloadFile"
             },
             {
@@ -1436,25 +1436,25 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "file":"sdmc:/3ds/minetroid_r16.zip",
                "input":"000400000017FD00/romfs/atlas/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/3ds/minetroid_r16.7z"
+               "file":"sdmc:/3ds/minetroid_r16.zip"
             },
             {
                "type":"promptMessage",
