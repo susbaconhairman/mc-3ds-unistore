@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":59,
+      "revision":60,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -638,7 +638,7 @@
       {
          "info":{
             "title":"DLC Activator for Minecraft: New Nintendo 3DS Edition",
-            "author":"Unknown",
+            "author":"TimmSkiller and MyPasswordIsWeak",
             "version":"v1.9.19",
             "category":[
                "modification"
