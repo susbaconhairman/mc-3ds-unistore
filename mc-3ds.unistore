@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":53,
+      "revision":54,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -41,7 +41,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -79,7 +79,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -117,7 +117,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -155,7 +155,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -193,7 +193,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -231,7 +231,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -287,7 +287,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -325,7 +325,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -363,7 +363,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -419,7 +419,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -457,7 +457,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -495,7 +495,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -533,7 +533,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -571,7 +571,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -609,7 +609,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -698,7 +698,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
                "required":false
             },
             {
@@ -736,7 +736,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
                "required":false
             },
             {
@@ -774,7 +774,7 @@
             },
             {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/atlas",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
                "required":false
             },
             {
@@ -1309,6 +1309,155 @@
             {
                "type":"promptMessage",
                "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
+      },
+      "info":{
+            "title":"Minetroid Textures (r16)",
+            "author":"DeadSkullzJr",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of the Minetroid texture pack (r16) by Dr_Tizzle.",
+            "license":"unknown",
+            "icon_index":12,
+            "sheet_index":0,
+            "last_updated":"2022-02-24 at 00:17 (UTC)"
+         },
+         "Minetroid Textures (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
+               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"00040000001B8700/romfs/atlas/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Minetroid Textures (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
+               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017CA00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Minetroid Textures (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/minetroid_r16.7z",
+               "output":"sdmc:/3ds/minetroid_r16.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z",
+               "input":"000400000017FD00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/minetroid_r16.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                "count":1
             }
          ]
