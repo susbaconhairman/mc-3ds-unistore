@@ -1660,6 +1660,171 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"The Wind Walker Edition Textures (v1.17.X)",
+            "author":"DeadSkullzJr",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of The Wind Walker Edition texture pack (v1.17) by Pavlovs_Walrus.",
+            "license":"unknown",
+            "icon_index":20,
+            "sheet_index":0,
+            "last_updated":"2021-11-03 at 08:29 (UTC)"
+         },
+         "The Wind Walker Edition (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/wind-walker-1.17.7z",
+               "output":"sdmc:/3ds/wind-walker-1.17.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"00040000001B8700/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"00040000001B8700/romfs/atlas/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "The Wind Walker Edition (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/wind-walker-1.17.7z",
+               "output":"sdmc:/3ds/wind-walker-1.17.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017CA00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017CA00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "The Wind Walker Edition (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/wind-walker-1.17.7z",
+               "output":"sdmc:/3ds/wind-walker-1.17.7z",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017FD00/romfs/resourcepacks/vanilla/client/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z",
+               "input":"000400000017FD00/romfs/atlas/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/wind-walker-1.17.7z"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
