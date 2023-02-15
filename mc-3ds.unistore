@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":67,
+      "revision":68,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2089,6 +2089,105 @@
             {
                "type":"promptMessage",
                "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"New Base Skins",
+            "author":"TheRustico36",
+            "version":"v1.9.19",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The newest versions of Steve and Alex from the Minecraft launcher.",
+            "license":"unknown",
+            "icon_index":13,
+            "sheet_index":0,
+            "last_updated":"2022-11-26 at 00:00 (UTC)"
+         },
+         "New Base Skins (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-base-skins.zip",
+               "output":"sdmc:/3ds/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New Base Skins (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-base-skins.zip",
+               "output":"sdmc:/3ds/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New Base Skins (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-base-skins.zip",
+               "output":"sdmc:/3ds/new-base-skins.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-base-skins.zip",
+               "input":"New Base Skins/Base/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                "count":1
             }
          ]
