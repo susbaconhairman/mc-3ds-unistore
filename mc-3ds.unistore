@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":68,
+      "revision":69,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2184,6 +2184,105 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/3ds/new-base-skins.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Breaking Bad Skins",
+            "author":"DarkForPresident",
+            "version":"v1.9.19",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.",
+            "license":"unknown",
+            "icon_index":4,
+            "sheet_index":0,
+            "last_updated":"2022-10-20 at 00:00 (UTC)"
+         },
+         "Breaking Bad Skins (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/breaking-bad.zip",
+               "output":"sdmc:/3ds/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/breaking-bad.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Breaking Bad Skins (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/breaking-bad.zip",
+               "output":"sdmc:/3ds/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/breaking-bad.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Breaking Bad Skins (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/breaking-bad.zip",
+               "output":"sdmc:/3ds/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/breaking-bad.zip"
             },
             {
                "type":"promptMessage",
