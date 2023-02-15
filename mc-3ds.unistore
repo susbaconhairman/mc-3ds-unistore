@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":66,
+      "revision":67,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1966,6 +1966,120 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/3ds/ender-dragon-elytra.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"New GUI",
+            "author":"TheRustico36",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack adds a new, darker look to Minecraft 3DS.",
+            "license":"unknown",
+            "icon_index":10,
+            "sheet_index":0,
+            "last_updated":"2023-01-14 at 00:00 (UTC)"
+         },
+         "New GUI (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-gui.zip",
+               "output":"sdmc:/3ds/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-gui.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "New GUI (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-gui.zip",
+               "output":"sdmc:/3ds/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-gui.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "New GUI (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/new-gui.zip",
+               "output":"sdmc:/3ds/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/new-gui.zip"
             },
             {
                "type":"promptMessage",
