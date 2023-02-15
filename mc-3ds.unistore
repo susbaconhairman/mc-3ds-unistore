@@ -2374,6 +2374,120 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Technoblade's Crown Texture",
+            "author":"DarkForPresident",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack gives every pig Technoblade's iconic crown.",
+            "license":"none",
+            "icon_index":15,
+            "sheet_index":0,
+            "last_updated":"2022-09-29 at 00:00 (UTC)"
+         },
+         "Technoblade's Crown (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/techno_pig.zip",
+               "output":"sdmc:/3ds/techno_pig.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"Technoblade_s Crown 3DS/entity/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/techno_pig.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Technoblade's Crown (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/techno_pig.zip",
+               "output":"sdmc:/3ds/techno_pig.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"Technoblade_s Crown 3DS/entity/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/techno_pig.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Technoblade's Crown (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/techno_pig.zip",
+               "output":"sdmc:/3ds/techno_pig.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"Technoblade_s Crown 3DS/entity/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/techno_pig.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
