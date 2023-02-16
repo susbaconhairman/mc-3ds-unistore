@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":75,
+      "revision":76,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2603,7 +2603,7 @@
             "license":"unknown",
             "icon_index":21,
             "sheet_index":0,
-            "last_updated":"2023-02-15 at 19:22 (UTC)"
+            "last_updated":"2023-02-15 at 19:22 (CST)"
          },
          "Remove ALL content (USA)":[
             {
