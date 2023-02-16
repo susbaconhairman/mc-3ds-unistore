@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":73,
+      "revision":74,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2406,8 +2406,8 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/techno_pig.zip",
-               "input":"Technoblade_s Crown 3DS/entity/",
-               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/"
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
             },
             {
                "type":"deleteFile",
@@ -2438,8 +2438,8 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/techno_pig.zip",
-               "input":"Technoblade_s Crown 3DS/entity/",
-               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/"
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
             },
             {
                "type":"deleteFile",
@@ -2470,8 +2470,8 @@
             {
                "type":"extractFile",
                "file":"sdmc:/3ds/techno_pig.zip",
-               "input":"Technoblade_s Crown 3DS/entity/",
-               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/"
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
             },
             {
                "type":"deleteFile",
@@ -2514,7 +2514,7 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/techno_pig.zip",
+               "file":"sdmc:/3ds/pcg-cow.zip",
                "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
             },
@@ -2541,7 +2541,7 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/techno_pig.zip",
+               "file":"sdmc:/3ds/pcg-cow.zip",
                "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
             },
@@ -2568,7 +2568,7 @@
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/3ds/techno_pig.zip",
+               "file":"sdmc:/3ds/pcg-cow.zip",
                "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
             },
