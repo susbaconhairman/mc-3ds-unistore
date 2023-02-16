@@ -1,4 +1,6 @@
 # Minecraft 3DS UniStore
+![Minecraft 3DS Customization UniStore Screenshot](https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/img/unistore-preview.png)
+
 Minecraft 3DS UniStore repo for game customization, for the Universal Updater
 
 If you want to have something added to the UniStore, contact me on Discord, my username is skribbler#1095. The item must not already be in the file repo (linked below), and it cannot be a world as I don't think there is a way to have worlds be installed via a UniStore.
