@@ -2488,6 +2488,105 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"PC Gamer Cow Texture",
+            "author":"WaterMelon",
+            "version":"v1.9.19",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack changes the cow to make it look like the one from the PC Gamer Demo of Minecraft: Java Edition",
+            "license":"none",
+            "icon_index":14,
+            "sheet_index":0,
+            "last_updated":"2022-11-03 at 07:33 (UTC)"
+         },
+         "PC Gamer Cow (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/pcg-cow.zip",
+               "output":"sdmc:/3ds/pcg-cow.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/pcg-cow.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "PC Gamer Cow (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/pcg-cow.zip",
+               "output":"sdmc:/3ds/pcg-cow.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/pcg-cow.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "PC Gamer Cow (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/pcg-cow.zip",
+               "output":"sdmc:/3ds/pcg-cow.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/techno_pig.zip",
+               "input":"PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/pcg-cow.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
