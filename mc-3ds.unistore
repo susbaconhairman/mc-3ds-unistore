@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":74,
+      "revision":75,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2585,6 +2585,60 @@
                "type":"promptMessage",
                "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
                "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Remove Customization",
+            "author":"susbaconhairman",
+            "version":"1",
+            "category":[
+               "misc"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A tool for quickly and easily removing custom content from the game.",
+            "license":"unknown",
+            "icon_index":21,
+            "sheet_index":0,
+            "last_updated":"2023-02-15 at 19:22 (UTC)"
+         },
+         "Remove ALL content (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom content for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/",
+               "required":false
+            }
+         ],
+         "Remove ALL content (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom content for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/",
+               "required":false
+            }
+         ],
+         "Remove ALL content (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom content for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/",
+               "required":false
             }
          ]
       }
