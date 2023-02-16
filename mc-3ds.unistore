@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":78,
+      "revision":79,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2600,10 +2600,10 @@
                "3DS"
             ],
             "description":"A tool for quickly and easily removing custom content from the game.",
-            "license":"unknown",
+            "license":"none",
             "icon_index":21,
             "sheet_index":0,
-            "last_updated":"2023-02-16 at 07:30 (CST)"
+            "last_updated":"2023-02-16 at 07:31 (CST)"
          },
          "Remove ALL content (USA)":[
             {
