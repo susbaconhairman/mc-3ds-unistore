@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":79,
+      "revision":80,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2592,7 +2592,7 @@
          "info":{
             "title":"Remove Customization",
             "author":"susbaconhairman",
-            "version":"2",
+            "version":"3",
             "category":[
                "misc"
             ],
@@ -2603,7 +2603,7 @@
             "license":"none",
             "icon_index":21,
             "sheet_index":0,
-            "last_updated":"2023-02-16 at 07:31 (CST)"
+            "last_updated":"2023-02-17 at 20:06 (CST)"
          },
          "Remove ALL content (USA)":[
             {
@@ -2644,7 +2644,7 @@
          "Remove textures (USA)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalled textures for the game",
+               "message":"This will remove ALL installed\ncustom textures for the game",
                "count":1
             },
             {
@@ -2661,7 +2661,7 @@
          "Remove textures (EUR)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalled textures for the game",
+               "message":"This will remove ALL installed\ncustom textures for the game",
                "count":1
             },
             {
@@ -2678,7 +2678,7 @@
          "Remove textures (JPN)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalled textures for the game",
+               "message":"This will remove ALL installed\ncustom textures for the game",
                "count":1
             },
             {
@@ -2689,6 +2689,42 @@
             {
                "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/atlas",
+               "required":false
+            }
+         ],
+         "Remove skins (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom skins for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks",
+               "required":false
+            }
+         ],
+         "Remove skins (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom skins for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks",
+               "required":false
+            }
+         ],
+         "Remove skins (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL installed\ncustom skins for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks",
                "required":false
             }
          ]
