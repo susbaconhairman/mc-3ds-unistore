@@ -3,9 +3,9 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":80,
+      "revision":81,
       "sheet":"atlas.t3x",
-      "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/atlas.t3x",
+      "sheetURL":"https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/sprites/spritesheets/atlas.t3x",
       "title":"Minecraft 3DS Customization",
       "url":"https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/mc-3ds.unistore",
       "version":3
@@ -2726,6 +2726,105 @@
                "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks",
                "required":false
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"2b2t Legends Skins",
+            "author":"susbaconhairman",
+            "version":"v1.9.19",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Wear the skins of some of the most notable players of the oldest anarchy server in Minecraft!",
+            "license":"none",
+            "icon_index":22,
+            "sheet_index":0,
+            "last_updated":"2023-02-19 at 14:16 (CST)"
+         },
+         "2b2t Legends (USA)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/2b2t_legends.zip",
+               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/CityFolk",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "input":"CityFolk/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/CityFolk/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "2b2t Legends (EUR)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/2b2t_legends.zip",
+               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/CityFolk",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "input":"CityFolk/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/CityFolk/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "2b2t Legends (JPN)":[
+            {
+               "file":"https://archive.org/download/mc-3ds-customization-repo/2b2t_legends.zip",
+               "output":"sdmc:/3ds/2b2t_legends.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/CityFolk",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip",
+               "input":"CityFolk/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/CityFolk/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/3ds/2b2t_legends.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
             }
          ]
       }
