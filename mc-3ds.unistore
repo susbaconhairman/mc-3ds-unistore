@@ -3,9 +3,9 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":81,
+      "revision":82,
       "sheet":"atlas.t3x",
-      "sheetURL":"https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/sprites/spritesheets/atlas.t3x",
+      "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/sprites/spritesheets/atlas.t3x",
       "title":"Minecraft 3DS Customization",
       "url":"https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/mc-3ds.unistore",
       "version":3
