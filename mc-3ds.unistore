@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":82,
+      "revision":83,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/sprites/spritesheets/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2592,7 +2592,7 @@
          "info":{
             "title":"Remove Customization",
             "author":"susbaconhairman",
-            "version":"3",
+            "version":"4",
             "category":[
                "misc"
             ],
@@ -2603,7 +2603,7 @@
             "license":"none",
             "icon_index":21,
             "sheet_index":0,
-            "last_updated":"2023-02-17 at 20:06 (CST)"
+            "last_updated":"2023-02-19 at 15:55 (CST)"
          },
          "Remove ALL content (USA)":[
             {
@@ -2727,7 +2727,43 @@
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks",
                "required":false
             }
-         ]
+         ],
+         "Remove mods (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL\ninstalledmods for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server",
+               "required":false
+            }
+         ],
+         "Remove mods (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL\ninstalledmods for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server",
+               "required":false
+            }
+         ],
+         "Remove mods (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL\ninstalledmods for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server",
+               "required":false
+            }
+         ],
       },
       {
          "info":{
