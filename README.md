@@ -8,7 +8,7 @@ If you want to have something added to the UniStore, contact me on Discord, my u
 File repo: https://archive.org/details/mc-3ds-customization-repo
 
 ## QR Code
-![Minecraft 3DS Customization UniStore QR Code](https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/qr/qr-new.png)
+![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/img/qr/qr-new.png)
 
 ## Credits
 Testing: Mr.Dingus#7918, myself (skribbler#1095)
