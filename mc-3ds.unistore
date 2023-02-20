@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":83,
+      "revision":84,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/sprites/spritesheets/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2763,7 +2763,7 @@
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server",
                "required":false
             }
-         ],
+         ]
       },
       {
          "info":{
