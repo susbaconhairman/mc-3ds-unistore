@@ -13,7 +13,7 @@ File repo: https://archive.org/details/mc-3ds-customization-repo
 ![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/img/qr/qr-new.png)
 
 ## Credits
-Testing: Mr.Dingus#7918, myself (skribbler#1095)
+Testing: Mr.Dingus#7918, Pk11, myself (skribbler#1095)
 
 Support: Minecraft 3DS Community and Universal-Server Discord servers
 
