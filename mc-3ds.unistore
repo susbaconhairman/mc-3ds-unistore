@@ -2763,7 +2763,7 @@
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server",
                "required":false
             }
-         ],
+         ]
       },
       {
          "info":{
