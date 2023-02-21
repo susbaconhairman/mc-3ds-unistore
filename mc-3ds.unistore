@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"Minecraft 3DS Customization Database",
       "file":"mc-3ds.unistore",
-      "revision":84,
+      "revision":85,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/sprites/spritesheets/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2731,7 +2731,7 @@
          "Remove mods (USA)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalledmods for the game",
+               "message":"This will remove ALL\ninstalled mods for the game",
                "count":1
             },
             {
@@ -2743,7 +2743,7 @@
          "Remove mods (EUR)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalledmods for the game",
+               "message":"This will remove ALL\ninstalled mods for the game",
                "count":1
             },
             {
@@ -2755,7 +2755,7 @@
          "Remove mods (JPN)":[
             {
                "type":"promptMessage",
-               "message":"This will remove ALL\ninstalledmods for the game",
+               "message":"This will remove ALL\ninstalled mods for the game",
                "count":1
             },
             {
