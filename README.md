@@ -1,4 +1,4 @@
-#THIS REPO HAS MOVED TO https://github.com/bigskribbz/mc-3ds-unistore
+# THIS REPO HAS MOVED TO https://github.com/bigskribbz/mc-3ds-unistore
 
 # Minecraft 3DS UniStore
 ![Minecraft 3DS Customization UniStore Screenshot](https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/img/unistore-preview.png)
