@@ -1,4 +1,6 @@
-# THIS REPO HAS MOVED TO https://github.com/bigskribbz/mc-3ds-unistore
+# DO NOT USE THIS REPOSITORY! THE UNISTORE HAS MOVED TO HERE: https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore
+
+---
 
 # Minecraft 3DS UniStore
 ![Minecraft 3DS Customization UniStore Screenshot](https://raw.githubusercontent.com/susbaconhairman/mc-3ds-unistore/main/img/unistore-preview.png)
@@ -12,7 +14,7 @@ If you want to have something added to the UniStore, contact me on Discord, my u
 File repo: https://archive.org/details/mc-3ds-customization-repo
 
 ## QR Code
-![Minecraft 3DS Customization UniStore QR Code](https://github.com/susbaconhairman/mc-3ds-unistore/raw/main/img/qr/qr-new.png)
+![Minecraft 3DS Customization UniStore QR Code](https: //github.com/susbaconhairman/mc-3ds-unistore/raw/main/img/qr/qr-new.png)
 
 ## Credits
 Testing: Mr.Dingus#7918, Pk11, myself (skribbler#1095)
